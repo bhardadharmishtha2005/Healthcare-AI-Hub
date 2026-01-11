@@ -12,7 +12,7 @@ A lightweight, high-performance healthcare diagnostic hub built with **Python**.
 - **NLP:** TextBlob
 - **Data Handling:** Pandas, NumPy
 
-## 🏃 How to Run Locally
+## How to Run Locally
 1. Clone this repo.
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run: `streamlit run healthcare.py`
