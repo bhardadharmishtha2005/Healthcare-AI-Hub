@@ -1,20 +1,18 @@
-# OmniHealth AI: Multi-Modal Diagnostic Hub
+# Smart Health AI Assistant
 
-An AI-powered healthcare dashboard built with **Python** that integrates Machine Learning, Deep Learning, and NLP.
+A lightweight, high-performance healthcare diagnostic hub built with **Python**. This project demonstrates the integration of Machine Learning and Natural Language Processing in a single web interface.
 
-##  Features
-- **Disease Predictor (ML):** Uses Scikit-learn to predict health conditions based on tabular data.
-- **X-Ray Scanner (DL):** Uses TensorFlow to classify medical images.
-- **Symptom Analysis (NLP):** Uses TextBlob to determine case urgency from patient notes.
+## Key Features
+- **Diabetes Risk Prediction:** A **Random Forest Classifier** trained to predict health risks based on Glucose, BMI, and Age.
+- **Symptom Urgency Analyzer:** Uses **NLP (TextBlob)** to perform sentiment analysis on patient descriptions, identifying high-distress cases for immediate attention.
 
 ## Tech Stack
-- **Frontend:** Streamlit
-- **Machine Learning:** Scikit-Learn
-- **Deep Learning:** TensorFlow
+- **Web App:** Streamlit
+- **Machine Learning:** Scikit-learn
 - **NLP:** TextBlob
-- **Data:** Pandas, NumPy
+- **Data Handling:** Pandas, NumPy
 
-##  How to Run
-1. Clone the repo: `git clone <your-link>`
+## 🏃 How to Run Locally
+1. Clone this repo.
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the app: `streamlit run app.py`
+3. Run: `streamlit run healthcare.py`
