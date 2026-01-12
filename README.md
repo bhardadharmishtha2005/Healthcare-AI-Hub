@@ -2,14 +2,14 @@
 
 A lightweight, high-performance healthcare diagnostic hub built with **Python**. This project demonstrates the integration of Machine Learning and Natural Language Processing in a single web interface.
 
-🚀 Key Features
+Key Features
 Diabetes Risk Predictor (ML): Utilizes a Random Forest Classifier to analyze patient metrics like Glucose levels, BMI, and Age to predict health risks instantly.
 
 Symptom Urgency Analyzer (NLP): Leverages TextBlob for sentiment analysis on patient-described symptoms, allowing for automated triage based on the distress level found in the text.
 
 Interactive UI: A responsive dashboard built with Streamlit, featuring real-time data input and side-bar navigation for a seamless user experience.
 
-🛠️ Tech Stack & Tools
+Tech Stack & Tools
 Frontend: Streamlit for a responsive and interactive web interface.
 
 Machine Learning: Scikit-learn for predictive modeling and data classification.
